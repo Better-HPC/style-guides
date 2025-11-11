@@ -1,4 +1,9 @@
-<code_scheme name="Project" version="173">
+<code_scheme name="BHPC" version="173">
+  <option name="AUTODETECT_INDENTS" value="false" />
+  <Angular2HtmlCodeStyleSettings>
+    <option name="INTERPOLATION_NEW_LINE_AFTER_START_DELIMITER" value="false" />
+    <option name="INTERPOLATION_NEW_LINE_BEFORE_END_DELIMITER" value="false" />
+  </Angular2HtmlCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_UNIFORM_INDENT" value="true" />
     <option name="HTML_ATTRIBUTE_WRAP" value="4" />
@@ -8,17 +13,16 @@
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
-    <option name="INDENT_CHAINED_CALLS" value="false" />
   </JSCodeStyleSettings>
   <ScssCodeStyleSettings>
     <option name="VALUE_ALIGNMENT" value="2" />
   </ScssCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="PREFER_AS_TYPE_CAST" value="true" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
-    <option name="INDENT_CHAINED_CALLS" value="false" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="CSS">
@@ -48,6 +52,25 @@
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+    <arrangement>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <XML_ATTRIBUTE />
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <XML_TAG />
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
@@ -75,14 +98,78 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
+    <option name="RIGHT_MARGIN" value="1000" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <option name="SOFT_MARGINS" value="80,120" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+    <arrangement>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <FIELD>true</FIELD>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <CONSTRUCTOR>true</CONSTRUCTOR>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <PROPERTY>true</PROPERTY>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <PROPERTY>true</PROPERTY>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <METHOD>true</METHOD>
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
   </codeStyleSettings>
 </code_scheme>
